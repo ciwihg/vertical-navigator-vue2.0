@@ -42,17 +42,17 @@ export default {
      submenu:[
      ]
     },
-    {content:"热销", //name of the item
-     color:"rgb(104,159,56)",//background color of the item
-     icon:'view_carousel',//icon of the item(for more detail,read the google material icons website)
-     link:"javascript:;",//href of the item
-     submenu:[ //submenu of the item
-       {content:"子分类1", //submenu item name
-       link:"#/sortpage/s2r" //submenu item href
-       }, //item of the submenu
-       {content:"子分类2", //submenu item name
-       link:"#/sortpage/s2r"//submenu item href
-       } //item of the submenu
+    {content:"热销",        //name of the item
+     color:"rgb(104,159,56)",     //background color of the item
+     icon:'view_carousel',      //icon of the item(for more detail,read the google material icons website)
+     link:"javascript:;",     //href of the item
+     submenu:[              //submenu of the item
+       {content:"子分类1",    //submenu item name
+       link:"#/sortpage/s2r"    //submenu item href
+       },        //item of the submenu
+       {content:"子分类2",     //submenu item name
+       link:"#/sortpage/s2r"   //submenu item href
+       }       //item of the submenu
      ]
     },//one item
     {content:"特价",
