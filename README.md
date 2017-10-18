@@ -47,10 +47,10 @@ export default {
      icon:'view_carousel',//icon of the item(for more detail,read the google material icons website)
      link:"javascript:;",//href of the item
      submenu:[ //submenu of the item
-       {content:"促销", //submenu item name
+       {content:"子分类1", //submenu item name
        link:"#/sortpage/s2r" //submenu item href
        }, //item of the submenu
-       {content:"朝阳巷5号", //submenu item name
+       {content:"子分类2", //submenu item name
        link:"#/sortpage/s2r"//submenu item href
        } //item of the submenu
      ]
@@ -60,9 +60,9 @@ export default {
      icon:'pause',
      link:"javascript:;",
      submenu:[
-       {content:"横潭大街32号",
+       {content:"子分类1",
        link:"#/sortpage/sr"},
-       {content:"朝阳巷5号",
+       {content:"子分类2",
        link:"#/sortpage/sr"}
      ]
     },
@@ -72,9 +72,9 @@ export default {
     icon:'crop_square',
      link:"javascript:;",
      submenu:[
-       {content:"横潭大街32号",
+       {content:"子分类1",
        link:"#/sortpage/r"},
-       {content:"朝阳巷5号",
+       {content:"子分类2",
        link:"#/sortpage/r"}
      ]
     },
@@ -83,11 +83,11 @@ export default {
      icon:'more_horiz',
      link:"javascript:;",
      submenu:[
-       {content:"横潭大街32号",
+       {content:"子分类1",
        link:"#/sortpage/other"},
-       {content:"朝阳巷5号",
+       {content:"子分类2",
        link:"#/sortpage/other"},
-       {content:"横潭市场",
+       {content:"子分类3",
        link:"#/sortpage/other"}
      ]
     }
