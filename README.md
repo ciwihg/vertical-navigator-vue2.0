@@ -1,10 +1,11 @@
 # vertical-navigator-vue2.0
 a vue navigator component imitate google play website navigator
-
-install
+## install
+``` bash
 npm install vertical-navigator-vue2.0
-usage
-
+```
+## usage
+``` bash
 1.This component work with google material icons,you should add link tag as below.
 <!DOCTYPE html>
 <html>
@@ -97,3 +98,4 @@ export default {
   }
 }
 </script>
+```
