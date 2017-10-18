@@ -23,7 +23,7 @@ npm install vertical-navigator-vue2.0
 
 <template>
   <div>
-    <he :datas="navdatas"></he>
+    <navigator :datas="navdatas"></navigator>
   </div>
 </template>
 
@@ -31,7 +31,7 @@ npm install vertical-navigator-vue2.0
 import  {verticalNavigator} from 'vertical-navigator-vue2.0'
 export default {
   name: 'HelloWorld',
-  components: {'he':verticalNavigator},
+  components: {'navigator':verticalNavigator},
   data () {
     return {
       navdatas:[
